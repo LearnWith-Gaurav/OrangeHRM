@@ -1,0 +1,106 @@
+Welcome = //a[@id='welcome']
+Logout = //a[contains(text(),'Logout')]
+
+Tabs---
+Dashboard = //a[@id='menu_dashboard_index']
+Dashboard header- //div[@class='head']/h1
+Admin= //a[@id='menu_admin_viewAdminModule']
+PIM- //a[@id='menu_pim_viewPimModule']
+Leave- //a[@id='menu_leave_viewLeaveModule']
+Time- //a[@id='menu_time_viewTimeModule']
+Recruitment- //a[@id='menu_recruitment_viewRecruitmentModule']
+Performance- //a[@id='menu__Performance']
+Directory- //a[@id='menu_directory_viewDirectory']
+Maintenance- //a[@id='menu_maintenance_purgeEmployee']
+
+Admin >
+User Management- //a[@id='menu_admin_UserManagement']
+Users- menu_admin_viewSystemUsers
+Job- menu_admin_Job
+Job Titles- id="menu_admin_viewJobTitleList"
+Pay Grades- menu_admin_viewPayGrades
+Employment Status- menu_admin_employmentStatus
+Job Categories- menu_admin_jobCategory
+Work Shifts- menu_admin_workShift
+Organization- menu_admin_Organization
+General Information- menu_admin_viewOrganizationGeneralInformation
+Locations- menu_admin_viewLocations
+Structure- menu_admin_viewCompanyStructure
+Qualifications- menu_admin_Qualifications
+Skills- menu_admin_viewSkills
+Education- menu_admin_viewEducation
+Licenses- menu_admin_viewLicenses
+Languages- menu_admin_viewLanguages
+Memberships- menu_admin_membership
+Nationalities- menu_admin_nationality
+Configuration- menu_admin_Configuration
+
+
+
+@FindBy(xpath = "//a[@id='menu_admin_UserManagement']")
+	private WebElement userMgmtOpt;
+
+	@FindBy(xpath = "//a[@id='menu_admin_viewSystemUsers']")
+	private WebElement usersOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_Job']")
+	private WebElement adminJobOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewJobTitleList']")
+	private WebElement jobTitlesOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewPayGrades']")
+	private WebElement payGradesOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_employmentStatus']")
+	private WebElement empStatusOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_jobCategory']")
+	private WebElement jobCatOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_workShift']")
+	private WebElement workShiftOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_Organization']")
+	private WebElement organisationOpt;
+	
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewOrganizationGeneralInformation']")
+	private WebElement organizationGeneralInformationOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewLocations']")
+	private WebElement locationOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewCompanyStructure']")
+	private WebElement companyStructureOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_Qualifications']")
+	private WebElement qualificationOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewSkills']")
+	private WebElement skillsOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewEducation']")
+	private WebElement educationOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewLicenses']")
+	private WebElement licensesOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_viewLanguages']")
+	private WebElement languagesOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_membership']")
+	private WebElement membershipOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_nationality']")
+	private WebElement nationalityOpt;
+	
+	@FindBy(xpath = "//a[@id='menu_admin_Configuration']")
+	private WebElement configurationOpt;
+
+
+
+
+
+
+
