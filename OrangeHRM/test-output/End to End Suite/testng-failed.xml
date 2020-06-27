@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [End to End Suite]" parallel="tests" allow-return-values="true">
+  <test thread-count="1" name="Chrome(failed)" parallel="methods">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.orange.testcases.PIM_EmployeeListTest">
+        <methods>
+          <include name="initTestSuite"/>
+          <include name="endSuite"/>
+          <include name="initWebDriver"/>
+          <include name="tearDown"/>
+          <include name="test_checkEmpId" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.orange.testcases.PIM_EmployeeListTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [End to End Suite] -->

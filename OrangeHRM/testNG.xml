@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite allow-return-values="true" name="End to End Suite" parallel="tests" thread-count="1">
+  <test name="Chrome" parallel="methods" thread-count="1">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.orange.testcases.PIM_EmployeeListTest">
+        <methods>
+          <include name="test_checkEmpId"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
